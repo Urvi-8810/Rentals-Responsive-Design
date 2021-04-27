@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link  rel="stylesheet">
+	
+</head>
+<body>
+ <div class="cont">
+    <div class="formcheckout" >
+      <h2 style="font-family: 'Nunito', sans-serif">Checkout </h2>
+      <label>
+	  <form name="myForm"  onsubmit="formvalidation()" >
+        <span>*Card Number</span>
+        <input type="text"  name="cardno" id="cardno"    maxlength="16"><br>
+      </label>
+      <label>
+       <span>*CVV</span>
+      <input type="text"  name="cvc" id="cvc"  maxlength="3"><br>
+		</label>
+		<label>
+	<span>*Name on the card</span>
+	<input type="text"  name="name" id ="name"  ><br>
+      </label>
+	  <label>
+				<span>*Expiration</span><br>
+				<select name="month" id="cardmonth">
+          <option value="01">01</option>
+          <option value="02">02</option>
+          <option value="03">03</option>
+          <option value="04">04</option>
+          <option value="05">05</option>
+          <option value="06">06</option>
+          <option value="07">07</option>
+          <option value="08">08</option>
+          <option value="09">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+		<select name="year" id="cardyear">
+          <option value="20">20</option>
+          <option value="21">21</option>
+		  <option value="21">22</option>
+		  <option value="21">23</option>
+		  <option value="21">24</option>
+		  <option value="21">25</option>
+		  <option value="21">26</option>
+		  <option value="21">27</option>
+		  <option value="21">28</option>
+		  <option value="21">29</option>
+		  <option value="21">30</option>
+		  <option value="21">31</option>
+        </select>
+	  </label>
+      <button class="submit" type="button"><a href="../index.html">Checkout</a></button>
+  <button class="submit" type="button"><a href="../index.html">Back</a></button>
+</form>
+      
+    </div>
+	<script type="text/javascript" src="l.js"></script>
+</body>
+</html>

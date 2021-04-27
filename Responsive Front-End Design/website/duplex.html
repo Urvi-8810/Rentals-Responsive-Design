@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+  
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+</style>
+  <title>Duplex</title>
+</head>
+<body>
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="logo">
+          <a href="#hero"><h1><span>P</span>er <span>S</span>quarefeet</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="menuc"><div class="bar"></div></div>
+          <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="#contact" >Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="services">
+    <div class="services container" style="background-color:#8B8180">
+      <div class="service-top">
+        <h1 style="font-size:50px">Duplex</h1>
+        <p></p>
+      </div>
+	</div>
+</section>	
+
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <a href="p1.html"> <img src="./img/i23.jpg" style="width:100%"></a>
+    
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="./img/i24.jpg" style="width:100% ">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="./img/i25.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="./img/i26.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="./img/i27.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="./img/i28.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row" class="bg-text">
+    <div class="column">
+      <img class="demo cursor" src="./img/i23.jpg" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/i24.jpg" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/i25.jpg" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/i26.jpg" style="width:100%" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/i27.jpg" style="width:100%" onclick="currentSlide(5)">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="./img/i28.jpg" style="width:100%" onclick="currentSlide(6)">
+    </div>
+  </div>
+</div>
+<p>Centre-ville de Montréal - 2 MOIS GRATUITS - Tout inclus <br>
+
+Possibilité de meubler l'appartement.<br>
+
+
+
+Inclusions:<br>
+
+• Sécurité 24/7.<br>
+
+• Piscine sur le toit.<br>
+
+• Terrasse panoramique sur le toit.<br>
+
+• Système d'entrée sans clé.<br>
+
+• Appareils neufs avec comptoir de quartz, réfrigérateur, cuisinière, micro-ondes, lave-vaisselle, laveuse et sécheuse.<br>
+
+• Gym.<br>
+
+• Climatisation/chauffage central.<br>
+
+• Luminaires.<br>
+
+• Stationnement disponible ($).<br>
+
+• Internet.<br>
+
+
+
+Ce nouvel immeuble de 138 unités vous offre un accès sécurisé sans clé! La terrasse au toit vous permettra une détente au bord de la piscine extérieure en contemplant la vue sur le Mont-Royal. Vous aurez accès à une salle de conditionnement physique pleinement fenestrée, adjacente à la terrasse. Des espaces de stationnements intérieurs aux locataires sont disponibles.
+
+Chaque appartement bénéficie d’une finition haut de gamme ainsi qu’une luminosité généreuse. Le ART vous offre également une vue magnifique de la terrasse au toit équipée d’une piscine extérieure et d’un BBQ afin de vous permettre une détente extérieure en recevant vos invités.
+
+SEULEMENT QUELQUES UNITÉS RESTANTES<br>
+
+*Images à titre indicatif*</p>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+<section id="home">
+    
+      <div>
+	  <a href="./payment/payment.html" type="button" class="lookhere">buy now</a>
+      </div>
+    
+  </section>
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="./img/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 514 514 5144</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="./img/email.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>persquarefeet@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="./img/address.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Montreal downtown</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="footer container">
+      <div class="logo"><h1><span>P</span>er <span>S</span>quarefeet</h1></div>
+      <h2>Your apartment Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="./img/facebook.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="./img/instagram.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="./img/gmail.png"/></a>
+        </div>
+        
+      </div>
+      <p>Copyright © 2020 Urvi. All rights reserved</p>
+    </div>
+  </section>
+  <script src="./app.js"></script>
+</body>
+</html>
